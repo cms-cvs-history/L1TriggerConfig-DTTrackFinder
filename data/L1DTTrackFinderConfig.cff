@@ -1,31 +1,31 @@
         es_source extlut = EmptyESSource{
                 string recordName = "L1MuDTExtLutRcd"
                 vuint32 firstValid = { 1 }
-                bool iovIsRunNotTime = false
+                bool iovIsRunNotTime = true
         }
 
         es_source philut = EmptyESSource{
                 string recordName = "L1MuDTPhiLutRcd"
                 vuint32 firstValid = { 1 }
-                bool iovIsRunNotTime = false
+                bool iovIsRunNotTime = true
         }
 
         es_source ptalut = EmptyESSource{
                 string recordName = "L1MuDTPtaLutRcd"
                 vuint32 firstValid = { 1 }
-                bool iovIsRunNotTime = false
+                bool iovIsRunNotTime = true
         }
 
         es_source etalut = EmptyESSource{
                 string recordName = "L1MuDTEtaPatternLutRcd"
                 vuint32 firstValid = { 1 }
-                bool iovIsRunNotTime = false
+                bool iovIsRunNotTime = true
         }
 
         es_source qualut = EmptyESSource{
                 string recordName = "L1MuDTQualPatternLutRcd"
                 vuint32 firstValid = { 1 }
-                bool iovIsRunNotTime = false
+                bool iovIsRunNotTime = true
         }
 
         es_module dttfluts = DTTrackFinderConfig{}
