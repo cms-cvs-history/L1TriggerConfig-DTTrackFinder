@@ -28,4 +28,10 @@
                 bool iovIsRunNotTime = true
         }
 
+        es_source dttfpar = EmptyESSource{
+                string recordName = "L1MuDTTFParametersRcd"
+                vuint32 firstValid = { 1 }
+                bool iovIsRunNotTime = true
+        }
+
         es_module dttfluts = DTTrackFinderConfig{}
